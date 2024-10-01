@@ -7,7 +7,14 @@ This project is an implementation of a lightweight web server in C++ using the H
 
 - **Socket Programming**: Utilized C++ socket to establish a TCP connection on a port {specified en configue file}, enabling communication with clients.
 
+- **Configuration File Parsing**: Developed functionality to parse a configuration file, allowing for dynamic configuration of server parameters, such as port number, document root, and CGI directory ...
+
 - **Request Handling**: Implemented parsing of HTTP requests to identify the method, requested resource, and headers, ensuring proper interpretation of client intentions.
+
+- **HTTP Methods Support**: Implemented support for the following HTTP methods:
+  - **GET**: Retrieve resources from the server.
+  - **POST**: Send data to the server for storing or processing.
+  - **DELETE**: Remove resources from the server.
 
 - **Static File Serving**: The server is capable of serving various static content types, including HTML, CSS, JavaScript, and image files, vedios, allowing clients to retrieve web resources seamlessly.
 
@@ -25,4 +32,4 @@ This project is an implementation of a lightweight web server in C++ using the H
 - **Cookie Handling**: Implemented support for HTTP cookies, enabling the server to set and read cookies in client requests for session tracking and personalization.
 
 ## Outcome
-The implemented web server successfully accepts and processes multiple HTTP requests, serving static files while providing appropriate error handling and logging. This project demonstrates a strong understanding of networking concepts, the HTTP protocol, and multithreading in C++.
+The implemented web server successfully accepts and processes multiple HTTP requests, serving static files while providing appropriate error handling and logging. This project demonstrates a strong understanding of networking concepts, the HTTP protocol, and Multiplexing.
